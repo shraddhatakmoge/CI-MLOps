@@ -1,8 +1,6 @@
 import pytest
 
 def cube(n):
-    if n==3:
-        return 20 
     return n**3
 
 
