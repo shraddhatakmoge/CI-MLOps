@@ -2,7 +2,7 @@ import pytest
 
 # Function to test square
 def square(n):
-    return n ** 2
+    return n * 2
 
 # # Function to test cube
 # def cube(n):
