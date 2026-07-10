@@ -1,8 +1,9 @@
 import pytest
+from app import square
 
 # Function to test square
-def square(n):
-    return n * 2
+# def square(n):
+#     return n ** 2
 
 # # Function to test cube
 # def cube(n):
@@ -27,7 +28,7 @@ def test_square():
 #     assert fifth_power(2) == 32, "Test Failed: Fifth power of 2 should be 32"
 #     assert fifth_power(3) == 243, "Test Failed: Fifth power of 3 should be 243"
 
-# # Test for invalid input
-# def test_invalid_input():
-#     with pytest.raises(TypeError):
-#         square("string")
+# Test for invalid input
+def test_invalid_input():
+    with pytest.raises(TypeError):
+        square("string")
